@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" name="" class="result" id="result" placeholder="0">
+
+            <label for="" class="hi">Hi</label>
+            <button onclick="sqrt()">√</button>
+            <button onclick="floor()">[*]</button>
+            <button onclick="factorial()">!</button>
+            <button onclick="clr()">AC</button>
+
+
+            <button onclick="clr()">Cl</button>
+            <button onclick="backspace()">Del</button>
+            <button onclick="disply('%')">%</button>
+            <button onclick="">/</button>
+            <button id="nice" onclick="cuberoot()">∛</button>
+
+
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')">9</button>
+            <button onclick="display('*')">*</button>
+            <button onclick="ln()" id="nice">ln</button>
+
+
+            <button onclick="display('4')">4</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('6')">6</button>
+            <button onclick="display('-')">-</button>
+            <button onclick="abs()" id="nice" >| |</button>
+
+
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+            <button onclick="display('+')">+</button>
+            <button onclick="exp()" id="nice">e^</button>
+
+
+
+            <button onclick="display('.')">.</button>
+            <button onclick="display('0')">0</button>
+           
+            <button hidden></button>
+            <button hidden></button>
+
+            <button onclick="display('1')" id="nice">Sin</button>
+            <button onclick="display('2')" id="nice">Cos</button>
+            <button onclick="display('3')" id="nice">Tan</button>
+            <button onclick="display('+')" id="nice">Log</button>
+            <button onclick="exp()" id="nice">π</button>
+            <button class="equal"  onclick="solve()">=</button>
+
+
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
